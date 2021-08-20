@@ -2,13 +2,13 @@ body{
     font-family: "Raleway";
 }
 
-header{
+.background{
     background-image: url("../images/header-bg.jpg");
     height: 600px;
 }
 
 .header-text{
-   padding-top: 17vh;
+   padding-top: 20vh;
 }
 
 a.active{
@@ -26,9 +26,11 @@ a.active{
 
 .phone{
     transition: all 0.5s ease-in-out;
+    border-radius: 25px;
+    box-shadow: 8px 10px 10px 5px #d3d3d3!important;
 }
 
-.disckription-screen{
+.screen-img{
     width: 70%;
 }
 
