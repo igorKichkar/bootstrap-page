@@ -1,0 +1,72 @@
+body{
+    font-family: "Raleway";
+}
+
+header{
+    background-image: url("../images/header-bg.jpg");
+    height: 600px;
+}
+
+.header-text{
+   padding-top: 17vh;
+}
+
+a.active{
+    background-color: rgb(240, 84, 84);
+}
+
+.icon-color{
+    color: rgb(240, 84, 84);
+    font-size: 200%;
+}
+
+.phone:hover {
+    transform: skew(10deg, -10deg);
+  }
+
+.phone{
+    transition: all 0.5s ease-in-out;
+}
+
+.disckription-screen{
+    width: 70%;
+}
+
+.screen-img{
+    width: 90vw;
+}
+
+.labels-firm{
+    background-color:rgb(236, 236, 236);
+}
+
+.footer-red-section{
+    background-color: rgb(240, 84, 84);
+    color:aliceblue;
+}
+
+.footer-dark-section{
+    background-color:rgb(51, 51, 51);
+}
+
+.footer-icon{
+    color: rgb(190, 190, 190);
+    font-size: 200%;
+}
+
+.footer-icon:hover,.footer-icon:active, .footer-icon:focus{
+    color: rgb(240, 84, 84);
+}
+
+.footer-copyrights{
+    background-color:rgb(37, 37, 37);
+    color:aliceblue;
+}
+
+.logo:hover, .logo:active, .logo:focus{
+    color: rgb(121, 121, 121);
+}
+
+.logo-circle{
+    color:rgb(240, 84, 84);
+}
